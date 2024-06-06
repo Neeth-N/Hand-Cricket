@@ -151,3 +151,30 @@
     position: relative;
     top: 18.5em;
   }
+
+@media screen and (max-width: 1368px) {
+    
+.ops {
+  position: absolute;
+  display: grid;
+  height: 5em;
+  width: 39em;
+  place-items: center;
+  top: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 46em;
+  left: -15px;
+}
+.card{
+  margin-top: 15em;
+  width: 36.4em;
+}
+.card-inner{
+  width: 19.4em;
+
+}
+  }
